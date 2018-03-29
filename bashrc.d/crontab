@@ -1,3 +1,1 @@
 #!/bin/bash
-15  *   *   *   *   `/Users/cpearring/bin/google-cloud-sdk/bin/gsutil -m rsync  -rU  /Users/cpearring/Google\ Drive/Images gs://goodbucket`
-15  *   *   *   *   `/Users/cpearring/bin/google-cloud-sdk/bin/gsutil -m acl ch -u AllUsers:R -R gs://goodbucket`
